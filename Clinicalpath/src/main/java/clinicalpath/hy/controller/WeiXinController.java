@@ -9,8 +9,5 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/weixin")
 public class WeiXinController {
 
-    @Autowired
-    private WxMpService wxMpService;
-
 
 }
